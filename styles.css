@@ -1,0 +1,101 @@
+body {
+    font-family: 'Instrument Serif';
+    font-weight: 400;
+    
+}
+
+p {
+    font-style: italic;
+}
+
+.fw-bold {
+    font-size: 100px;
+    letter-spacing: 5px;
+}
+
+.caps {
+    font-weight: regular;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.main-header {
+    background-image: url(./asset/images/sunset-pool\ new.jpg);
+    height: 800px;
+    width: 100%;
+}
+
+.inner {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.outer {
+    display: flex;
+    align-items: center;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.nav-link {
+    color: green;
+}
+
+.new-form {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+@media (min-width: 576px) and (max-width: 1199px) {
+    .header-card {
+        height: 600px;
+    }
+    .inner-card{
+        height: 200px;
+        width: 350px;
+    }
+
+    .inner-image {
+        width: 350px;
+        height: 200px;
+    }
+
+    .services {
+        margin-top: 320px;
+    }
+
+    .btn-outline-light {
+        color: green;
+        border: 1px solid green;
+    }
+
+    .btn-light {
+        background-color: green;
+        color: white;
+    }
+}
+
+@media (max-width: 575px) {
+    .services {
+        margin-top: 300px;
+    }
+
+    .btn-outline-light {
+        color: green;
+        border: 1px solid green;
+    }
+
+    .btn-light {
+        background-color: green;
+        color: white;
+    }
+
+}
+
